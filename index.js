@@ -6,6 +6,15 @@ function calculateArea(length, height){
     return length * height;
 }
 
+class rectangle{
+    constructor(length, height){
+        this.length = length;
+        this.height = height;
+    }
+    calculateArea(){
+        return this.length * this.height;
+    }
+}
 //should encapsulate the variables 
 // and functions within a Rectangle
 
